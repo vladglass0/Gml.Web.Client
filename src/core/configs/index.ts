@@ -1,11 +1,11 @@
 import packageJson from '../../../package.json';
 
-export const BRAND_NAME = 'Gml';
+export const BRAND_NAME = 'LTS';
 export const PLATFORM_SHORT_APP_NAME = 'Panel';
 export const PLATFORM_APP_NAME = `${BRAND_NAME} ${PLATFORM_SHORT_APP_NAME}`;
 
 export const PLATFORM_VERSION = `${packageJson.version}`;
-export const PLATFORM_CREDIT = 'by S.One';
+export const PLATFORM_CREDIT = 'by RtxBB';
 
 type Config = {
   version: string;
