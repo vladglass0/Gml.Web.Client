@@ -24,7 +24,7 @@ const baseMenu: TMenuItem[] = [
     path: DASHBOARD_PAGES.PROFILES,
     text: 'Профили',
   },
-  {
+  /*{
     icon: <ShoppingCartIcon size={16} />,
     path: DASHBOARD_PAGES.MARKETPLACE,
     text: (
@@ -35,7 +35,7 @@ const baseMenu: TMenuItem[] = [
         </Badge>
       </>
     ),
-  },
+  },*/
   {
     icon: <ArrowUpDownIcon size={16} />,
     path: DASHBOARD_PAGES.INTEGRATIONS,
