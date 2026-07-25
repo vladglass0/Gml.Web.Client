@@ -30,9 +30,9 @@ export default function Page({ children }: React.PropsWithChildren) {
             </Link>
           </div>
           <DashboardNavigation />
-          /* <div className={classes.aside__pro}>
+          {/* <div className={classes.aside__pro}>
             <DonationPro />
-          </div> */
+          </div> */}
         </div>
       </aside>
       <div className={classes.content}>
