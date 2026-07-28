@@ -6,6 +6,7 @@ export const signInSchema = z.object({
     .min(1, { message: 'Вы не заполнили поле' })
     .transform((v) => v.trim()),
   password: z.string().min(1, { message: 'Вы не заполнили поле' }),
+  turnstileToken: z.string().optional(),
 });
 
 export const signUpSchema = z
