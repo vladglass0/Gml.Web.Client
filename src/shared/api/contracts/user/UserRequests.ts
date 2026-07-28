@@ -17,7 +17,6 @@ export type TPostSignUpResponse = ResponseBaseEntity & {
 export type ApiPostSignInRequest = {
   login: string;
   password: string;
-  turnstileToken?: string;
 };
 export type ApiPostSignInResponse = ResponseBaseEntity & {
   data: {
