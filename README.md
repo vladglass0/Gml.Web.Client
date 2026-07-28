@@ -1,6 +1,7 @@
 ![Frame 39264](https://github.com/user-attachments/assets/dd3d0f5d-3b19-496f-ac52-8547566103bc)
 
 # Gml.Web.Client
+[![Docker](https://github.com/vladglass0/Gml.Web.Client/actions/workflows/docker-package-publish.yml/badge.svg)](https://github.com/vladglass0/Gml.Web.Client/actions/workflows/docker-package-publish.yml)
 
 A modern web client for the Gml Launcher, built with Next.js. This project provides a user-friendly interface to
 interact with the Gml Launcher's backend services.
